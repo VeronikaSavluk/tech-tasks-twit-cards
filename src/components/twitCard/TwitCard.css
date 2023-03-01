@@ -1,0 +1,35 @@
+.twit-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 380px;
+	height: 460px;
+	border-radius: 20px;
+	box-shadow: -2.58px 6.87px 20.62px 0px rgba(0, 0, 0, 0.23);
+	background: #471CA9 -0.99%;
+
+	background: url('../../images/background/background.png') center 28px/308px 168px no-repeat,
+	linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+
+	background: url('../../images/background/background.png') center 28px/308px 168px no-repeat,
+	-moz-linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+
+	background:	url('../../images/background/background.png') center 28px/308px 168px no-repeat,
+	-webkit-linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .twit-card {
+    background: url('../../images/background/background@2x.png') center 28px/308px 168px no-repeat,
+		linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+
+		background: url('../../images/background/background@2x.png') center 28px/308px 168px no-repeat,
+		-moz-linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+
+		background: url('../../images/background/background@2x.png') center 28px/308px 168px no-repeat,
+		-webkit-linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+	}
+}
