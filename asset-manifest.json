@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e18a85cf.css",
-    "main.js": "/static/js/main.17268fd7.js",
-    "static/js/787.f11a6e72.chunk.js": "/static/js/787.f11a6e72.chunk.js",
-    "static/media/background@2x.png": "/static/media/background@2x.7009908930a9bac45a3e.png",
-    "static/media/background.png": "/static/media/background.86562350dcaa714a1442.png",
-    "static/media/avatar.png": "/static/media/avatar.e70bc2802efa1b14eda5.png",
-    "index.html": "/index.html",
-    "main.e18a85cf.css.map": "/static/css/main.e18a85cf.css.map",
-    "main.17268fd7.js.map": "/static/js/main.17268fd7.js.map",
-    "787.f11a6e72.chunk.js.map": "/static/js/787.f11a6e72.chunk.js.map"
+    "main.css": "/tech-tasks-twit-cards/static/css/main.24bf5310.css",
+    "main.js": "/tech-tasks-twit-cards/static/js/main.89883d84.js",
+    "static/js/787.f11a6e72.chunk.js": "/tech-tasks-twit-cards/static/js/787.f11a6e72.chunk.js",
+    "static/media/background@2x.png": "/tech-tasks-twit-cards/static/media/background@2x.7009908930a9bac45a3e.png",
+    "static/media/background.png": "/tech-tasks-twit-cards/static/media/background.86562350dcaa714a1442.png",
+    "static/media/avatar.png": "/tech-tasks-twit-cards/static/media/avatar.e70bc2802efa1b14eda5.png",
+    "index.html": "/tech-tasks-twit-cards/index.html",
+    "main.24bf5310.css.map": "/tech-tasks-twit-cards/static/css/main.24bf5310.css.map",
+    "main.89883d84.js.map": "/tech-tasks-twit-cards/static/js/main.89883d84.js.map",
+    "787.f11a6e72.chunk.js.map": "/tech-tasks-twit-cards/static/js/787.f11a6e72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e18a85cf.css",
-    "static/js/main.17268fd7.js"
+    "static/css/main.24bf5310.css",
+    "static/js/main.89883d84.js"
   ]
 }
