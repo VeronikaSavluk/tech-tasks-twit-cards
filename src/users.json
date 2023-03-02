@@ -4,69 +4,69 @@
 		"user": "Elon Reeve Musk",
 		"tweets": 777,
 		"followers": 100500,
-		"avatar": ""
+		"avatarURL": ""
 	},
 	{
 		"id": 2,
 		"user": "Mark Crawford",
 		"tweets": 800,
 		"followers": 1005,
-		"avatar": ""
+		"avatarURL": "images/mark.jpg"
 	},
 	{
 		"id": 3,
 		"user": "Robert Douglas",
 		"tweets": 79,
 		"followers": 702,
-		"avatar": ""
+		"avatarURL": "images/robert.jpg"
 	},
 	{
 		"id": 4,
 		"user": "Jack Clift",
 		"tweets": 115060,
 		"followers": 200503,
-		"avatar": ""
+		"avatarURL": "images/jack.jpg"
 	},
 	{
 		"id": 5,
 		"user": "Katharine Roberts",
 		"tweets": 15,
 		"followers": 97,
-		"avatar": ""
+		"avatarURL": "images/kate.jpg"
 	},
 	{
 		"id": 6,
 		"user": "Daniel Bassett",
 		"tweets": 717,
 		"followers": 36509,
-		"avatar": ""
+		"avatarURL": "images/daniel.png"
 	},
 	{
 		"id": 7,
 		"user": "Ingrid Hepburn",
 		"tweets": 433,
 		"followers": 10511,
-		"avatar": ""
+		"avatarURL": "images/ingrid.jpg"
 	},
 	{
 		"id": 8,
 		"user": "Elizabeth Davis",
 		"tweets": 48977,
 		"followers": 700448,
-		"avatar": ""
+		"avatarURL": "images/eliz.jpg"
 	},
 	{
 		"id": 9,
 		"user": "Gregory Grant",
 		"tweets": 359855,
 		"followers": 3500500,
-		"avatar": ""
+		"avatarURL": "images/gregory.jpg"
 	},
 	{
 		"id": 10,
 		"user": "Viola Stewart",
 		"tweets": 211,
 		"followers": 35986,
-		"avatar": ""
+		"avatarURL": "images/viola.jpg"
 	}
 ]

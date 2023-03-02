@@ -1,32 +1,36 @@
-import useLocalStorage from "../../hooks/useLocalStorage";
+import React, {useContext} from "react";
+import Context from "../../Context";
 import './InfoBlock.css';
 
-import avatar from '../../images/avatar.png';
+import frame from '../../images/frame.png';
 
-function InfoBlock({tweets = 777}) {
-	const [followers, setFollowers] = useLocalStorage('followers', 100500);
-	const [isActive, setIsActive] = useLocalStorage('isActive', false);
+function InfoBlock ({cardInfo}) {
+
+	let {followings, handleFollowings} = useContext(Context);
+
+	let {id, followers, tweets, avatarURL} = cardInfo;
+
+	let followingUserId = followings.filter(userId => userId === id);
+
+	let countFollowers = followingUserId.length > 0 ? followers + 1 : followers;
 
 	return (
 		<div className="info-block">
-			<div className="info-block__line"></div>
+			<div className="info-block__line"/>
 			<div className="info-block__avatar">
-				<img src={avatar} alt='avatar'/>
+			<img src={frame} alt='frame of avatar'/>
+			{avatarURL && <img src={"/tech-tasks-twit-cards/" + avatarURL}
+			alt='avatar' className="info-block__user"
+			/>}
 			</div>
 			<ul className="info-block__list">
 				<li className="info-block__item">{new Intl.NumberFormat('ja-JP').format(tweets)} tweets</li>
-				<li className="info-block__item">{new Intl.NumberFormat('ja-JP').format(followers)} followers</li>
+				<li className="info-block__item">{new Intl.NumberFormat('ja-JP').format(countFollowers)} followers</li>
 			</ul>
-			{isActive ? (
-			<button className="followingButton" onClick={() => {
-				setFollowers(prevState => prevState - 1);
-				setIsActive(false);
-			}}>Following</button>
+			{followingUserId.length > 0 ? (
+			<button className="followingButton" onClick={() => handleFollowings(id)}>Following</button>
 			) : (
-			<button className="followButton" onClick={() => {
-				setFollowers(prevState => prevState + 1);
-				setIsActive(true);
-			}}>Follow</button>
+			<button className="followButton" onClick={() => handleFollowings(id)}>Follow</button>
 		)}
 		</div>
 	);

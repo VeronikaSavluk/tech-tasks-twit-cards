@@ -3,12 +3,12 @@ import Logo from "../logo/Logo";
 
 import './TwitCard.css';
 
-function TwitCard() {
+function TwitCard({cardInfo}) {
 	return (
-		<div className="twit-card">
+		<li className="twit-card">
 		<Logo/>
-		<InfoBlock/>
-		</div>
+		<InfoBlock cardInfo={cardInfo}/>
+		</li>
 	);
 };
 
