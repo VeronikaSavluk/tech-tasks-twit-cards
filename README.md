@@ -1,7 +1,9 @@
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm i`
 
+Install the app base dependencies with the npm install command.
 ### `npm start`
 
 Runs the app in the development mode.\
