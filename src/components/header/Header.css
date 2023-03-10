@@ -1,0 +1,13 @@
+.header {
+	margin-bottom: 16px;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: -2.58px 6.87px 20.62px 0px rgba(0, 0, 0, 0.23);
+	background: #471CA9 -0.99%;
+
+	background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+
+	background: -moz-linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+
+	background:	-webkit-linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+}
