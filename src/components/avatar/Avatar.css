@@ -1,9 +1,9 @@
 .info-block__avatar {
 	position: absolute;
 	top: 178px;
-	left: 150px;
+	left: 110px;
 	width: 80px;
-	height: 80px;
+	height: 80px;	
 }
 
 .info-block__avatar::after {
@@ -23,14 +23,36 @@
 
 .info-block__avatar::before{
 	position: absolute;
-	left: -150px;
+	left: -110px;
 	top: 36px;
 	display: block;
 	content: '';
-	width: 380px;
+	width: 300px;
 	height: 8px;
 	background-color: #EBD8FF;;
 	box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
 	inset 0px -1.71846px 3.43693px #AE7BE3,
-	inset 0px 3.43693px 2.5777px #FBF8FF;
+	inset 0px 3.43693px 2.5777px #FBF8FF;	
+}
+
+@media screen and (min-width: 768px){
+	.info-block__avatar {
+		left: 140px;
+	}
+
+	.info-block__avatar::before{
+	left: -140px;
+	width: 360px;
+	}
+}
+
+@media screen and (min-width: 1280px){
+	.info-block__avatar {
+		left: 150px;
+	}
+
+	.info-block__avatar::before{
+	left: -150px;
+	width: 380px;
+	}
 }
