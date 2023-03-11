@@ -1,4 +1,4 @@
-### Task
+# Task
 
 Create a card for the tweet and add interactivity at the click of a button.
 
@@ -28,9 +28,8 @@ Also the number of followers changes, it decreases by 1 (100,500).
 5. The number 100,500 must be written with one value (100500) in the code.
 The number must be separated by a comma in the user interface.
 
-## The link to layout of the user card:
-
-[https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=VoiYTfiXggVItgVd-1].
+The link to layout of the user card:
+https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=VoiYTfiXggVItgVd-1.
 
 ## Additional task
 
@@ -47,17 +46,17 @@ on the front-end of the application.
 5. Each card must be functionally independent of each other.
 6. Other requirements are similar to the technical task described above.
 
-# The template of file.json:
+### The template of file.json:
 <img src='assets/json-file.png' alt='object of the database' width='300px'/>
 
-### The instructions for working with the downloaded code
+# The instructions for working with the downloaded code
 ## Available Scripts
 
 In the project directory, you can run:
-## `npm i`
+### `npm i`
 
 Install the app base dependencies with the npm install command.
-## `npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -65,7 +64,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## `npm run build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -75,6 +74,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## `npm run build` fails to minify
+### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
