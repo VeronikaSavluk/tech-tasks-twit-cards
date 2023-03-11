@@ -1,12 +1,12 @@
 import React, {useContext} from "react";
-import Context from "../../Context";
+import CardContext from "../../Context";
+import { Avatar } from "../avatar/Avatar";
+import {Button} from "../button/Button";
 import './InfoBlock.css';
-
-import frame from '../../images/frame.png';
 
 function InfoBlock ({cardInfo}) {
 
-	let {followings, handleFollowings} = useContext(Context);
+	let {followings} = useContext(CardContext);
 
 	let {id, followers, tweets, avatarURL} = cardInfo;
 
@@ -16,22 +16,12 @@ function InfoBlock ({cardInfo}) {
 
 	return (
 		<div className="info-block">
-			<div className="info-block__line"/>
-			<div className="info-block__avatar">
-			<img src={frame} alt='frame of avatar'/>
-			{avatarURL && <img src={"/tech-tasks-twit-cards/" + avatarURL}
-			alt='avatar' className="info-block__user"
-			/>}
-			</div>
+			<Avatar avatarURL={avatarURL}/>
 			<ul className="info-block__list">
 				<li className="info-block__item">{new Intl.NumberFormat('ja-JP').format(tweets)} tweets</li>
 				<li className="info-block__item">{new Intl.NumberFormat('ja-JP').format(countFollowers)} followers</li>
 			</ul>
-			{followingUserId.length > 0 ? (
-			<button className="followingButton" onClick={() => handleFollowings(id)}>Following</button>
-			) : (
-			<button className="followButton" onClick={() => handleFollowings(id)}>Follow</button>
-		)}
+			<Button followingUserId={followingUserId} id={id}/>
 		</div>
 	);
 };

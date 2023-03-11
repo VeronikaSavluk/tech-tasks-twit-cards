@@ -1,6 +1,0 @@
-.twit-cards {
-	display: grid;
-	justify-items: stretch;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 1px;
-}

@@ -1,0 +1,36 @@
+.info-block__avatar {
+	position: absolute;
+	top: 178px;
+	left: 150px;
+	width: 80px;
+	height: 80px;
+}
+
+.info-block__avatar::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	content: '';
+	width: 80px;
+	height: 80px;
+	background: #EBD8FF;
+	border-radius: 50px;
+	box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+	inset 0px -2.19581px 4.39163px #AE7BE3,
+	inset 0px 4.39163px 3.29372px #FBF8FF;
+}
+
+.info-block__avatar::before{
+	position: absolute;
+	left: -150px;
+	top: 36px;
+	display: block;
+	content: '';
+	width: 380px;
+	height: 8px;
+	background-color: #EBD8FF;;
+	box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+	inset 0px -1.71846px 3.43693px #AE7BE3,
+	inset 0px 3.43693px 2.5777px #FBF8FF;
+}

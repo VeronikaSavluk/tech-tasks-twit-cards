@@ -1,7 +1,12 @@
-import useLocalStorage from "../hooks/useLocalStorage";
+import {lazy} from 'react';
+import {Routes, Route} from 'react-router-dom';
+import useLocalStorage from "./hooks/useLocalStorage";
+import CardContext from './Context';
+
+import { Layout } from './components/layout/Layout';
 import './App.css';
-import TwitCards from './twitCards/TwitCards';
-import Context from '../Context';
+
+const TwitCardspage = lazy(() => import('./pages/TwitCardsPage'));
 
 function App() {
   const [followings, setFollowings] = useLocalStorage('followings', []);
@@ -20,13 +25,15 @@ function App() {
     followings,
     handleFollowings
   };
-
+  
   return (
-    <Context.Provider value={value}>
-    <div className="box">
-      <TwitCards/>
-    </div>
-    </Context.Provider>
+    <CardContext.Provider value={value}>
+    <Routes>
+      <Route path="/" element={<Layout/>}>
+        <Route index element={<TwitCardspage/>} />
+      </Route>
+    </Routes>
+    </CardContext.Provider>
   );
 };
 

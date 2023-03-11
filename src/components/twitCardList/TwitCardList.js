@@ -1,8 +1,8 @@
 import TwitCard from '../twitCard/TwitCard';
-import './TwitCards.css';
+import './TwitCardList.css';
 import cards from '../../users.json';
 
-function TwitCards () {
+function TwitCardList () {
 	return(
 		<ul className='twit-cards'>
 			{cards && cards.map(({id, followers, tweets, avatarURL}) => 
@@ -12,4 +12,4 @@ function TwitCards () {
 	)
 };
 
-export default TwitCards;
+export default TwitCardList;

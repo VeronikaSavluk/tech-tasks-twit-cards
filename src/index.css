@@ -3,6 +3,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	text-transform: uppercase;
+  color: #EBD8FF;
+  background-color: rgba(235, 216, 255, 1);
 }
 
 code {
@@ -17,4 +23,9 @@ padding: 0;
 
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
